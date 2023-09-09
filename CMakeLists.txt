@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.5.0)
 set(CMAKE_TOOLCHAIN_FILE ${CMAKE_SOURCE_DIR}/vcpkg/scripts/buildsystems/vcpkg.cmake)
 set(CMAKE_CXX_STANDARD 20)
 
-set(PROJECT_NAME project)
+set(PROJECT_NAME MathsModels)
 
 project(${PROJECT_NAME} VERSION 0.0.1 LANGUAGES C CXX)
 
