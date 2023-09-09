@@ -15,6 +15,8 @@ add_executable(binary main.cpp)
 add_executable(test.exe test/test.cpp)
 add_test(test test.exe)
 
+add_executable(random Random/main.cpp)
+
 # test section with other executables
 enable_testing()
 
